@@ -1,0 +1,113 @@
+body {
+	background-image: url('2.webp');
+	
+}
+header {
+	position: fixed;
+	top: 0;
+    width: 100%; 
+    z-index: 1000;
+	border: 2px solid black;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(19, 6, 161, 0.7));
+	
+}
+.button1 img {
+	padding-right: 17cm;
+	margin-bottom: 30px;
+}
+
+.button2 {
+	background-color: black;
+	border: 2px solid gray;
+	border-radius: 10px;
+	height: 90px;
+	margin-left: 3cm;
+	margin-right: 3cm;
+}
+.all {
+	background-image: url("22.png");
+	background-clip: content-box;
+	margin-left: 3cm;
+	margin-right: 3cm;
+	margin-top: 5cm;
+	border: 2px solid red;
+	border-radius: 10px;
+	
+}
+
+.button {
+	margin-top: 10px;
+	margin: 5px;
+	border-radius: 100px;
+	height: 50px;
+    width: 250px;
+	background-color: #fcb605;
+	font-size: 130%;
+
+  }
+.button:hover {
+	border-radius: 100px;
+	height: 50px;
+    width: 250px;
+	background-color: #ad9a37;
+	transform: translateY(-10px);
+	font-size: 130%;
+
+  }
+ .button1 {
+	padding-top: 35px;
+	
+	display: flex;
+	flex-direction: row;
+	font-family: "Arial Black";
+ }
+@keyframes myAnimation {
+  from {
+    transform: translateY(0px);
+	opacity: 1
+  }
+  to {
+    transform: translateY(-5000px);
+	opacity: 0
+  }
+}
+@keyframes myAnimation1 {
+  from {
+    transform: translateX(-2000px);
+	
+  }
+  to {
+    transform: translateX(300px);
+	
+  }
+}
+
+.adf {
+  float: right;
+  display: block;
+  margin: 30px;
+  margin-right: 200px;
+  width: 72px;
+  height: 80px;
+  animation-name: myAnimation;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+  
+  animation-iteration-count: 1;
+}
+.adf1 {
+  float: right;
+  display: block;
+  transform: translateX(-2000px);
+  width: 72px;
+  height: 80px;
+  animation-name: myAnimation1;
+  animation-duration: 20s;
+  
+  animation-iteration-count: 1;
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: yellow;
+     }
+
